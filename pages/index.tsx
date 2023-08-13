@@ -5,6 +5,7 @@ import { SORTED_ARTICLES_BY_DATE } from '../BLOG_CONSTANTS/_ARTICLES_LIST';
 import { DEFAULT_SEO } from "../BLOG_CONSTANTS/_BLOG_SETUP";
 import FeaturedArticleSection from "../src/components/Misc/FeaturedArticleSection";
 import HomeNonFeatureArticles from "../src/components/Misc/HomeNonFeatureAricles";
+import ShowcaseCards from "../src/components/ShowcaseCards/ShowcaseCards";
 
 const Home = () => {
   return (
@@ -26,6 +27,9 @@ const Home = () => {
         </div>
       </section>
       <div className="container mx-auto lg:px-[15px] px-0">
+         <div className={'flex flex-wrap'}>
+          <ShowcaseCards />
+        </div>
         <div className={'flex flex-wrap'}>
           <FeaturedArticleSection />
         </div>
