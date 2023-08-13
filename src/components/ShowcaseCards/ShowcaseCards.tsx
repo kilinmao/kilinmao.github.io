@@ -1,6 +1,6 @@
 import React from 'react';
 import ShowcaseCard from './ShowcaseCard';
-import styles from './ShowcaseCards.module.scss';
+import styles from './showcaseCards.module.scss';
 
 interface Card {
   title: string;

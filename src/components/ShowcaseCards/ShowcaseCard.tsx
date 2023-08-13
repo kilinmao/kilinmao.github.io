@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './ShowcaseCard.module.scss';
+import styles from './showcaseCard.module.scss';
 
 interface Props {
   title: string;
