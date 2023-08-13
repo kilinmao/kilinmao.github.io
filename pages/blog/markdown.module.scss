@@ -1,0 +1,51 @@
+/* styles/markdown.module.css */
+.markdown {
+
+    /* 标题样式 */
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    h6 {
+        font-size: 0.875rem;
+    }
+
+    /* 段落样式 */
+    p {
+        max-width: 100%;
+        width: 100%;
+        white-space: pre-wrap;
+        word-break: break-word;
+        caret-color: rgb(55, 53, 47);
+        padding: 12px 2px;
+    }
+
+    /* 有序和无序列表样式 */
+    ol,
+    ul {
+        padding-left: 16px;
+    }
+
+    /*链接样式*/
+    a {
+        color: #0366d6;
+    }
+
+    /* ... 你可以在这里添加更多样式 */
+}
