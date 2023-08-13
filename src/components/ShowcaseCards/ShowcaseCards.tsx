@@ -1,14 +1,8 @@
 import React from 'react';
-import ShowcaseCard from './ShowcaseCard';
+import ShowcaseCard, { Card } from './ShowcaseCard';
 import styles from './showcaseCards.module.scss';
 
-interface Card {
-  title: string;
-  description: string;
-  imageUrl: string;
-  demoUrl: string;
-  githubUrl: string;
-}
+
 
 interface Props {
   cards: Card[];

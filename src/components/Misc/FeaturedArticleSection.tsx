@@ -20,8 +20,6 @@ const FeaturedArticleSection = () => {
                         <FeaturedArticle article={each.preview} path={each.path} key={each.path + i} />
                     ))
                 }
-
-                <Seperator />
             </>) : null
     )
 }

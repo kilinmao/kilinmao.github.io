@@ -1,6 +1,6 @@
 .showcaseCards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 1rem;
     padding: 1rem;
     box-sizing: border-box;
@@ -9,11 +9,11 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    @media (min-width: 576px) and (max-width: 767px) {
+    @media (min-width: 576px) and (max-width: 1000px) {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    @media (min-width: 768px) {
-        grid-template-columns: repeat(3, 1fr);
+    @media (min-width: 1000px) {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
